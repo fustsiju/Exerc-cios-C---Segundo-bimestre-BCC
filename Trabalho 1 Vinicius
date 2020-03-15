@@ -1,0 +1,279 @@
+
+***---***---***---***---***---***---***---***---***  TRABALHO 1 ALGORÍTMOS  ***---***---***---***---***---***---***---***---***
+#include <stdio.h>
+
+int main(){
+	printf("As coisas boas da vida são as coisas simples.");
+
+	return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+
+int main(){
+	int inteiro;
+	printf("Digite um valor inteiro: ");
+	scanf("%d", &inteiro);
+
+	return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+	int a, b, c;
+	printf("Digite um numero inteiro para soma: ");
+	scanf("%d", &a);
+	printf("Digite outro numero inteiro: ");
+	scanf("%d", &b);
+	c = a + b;
+	printf("%d", c);
+
+	return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+	int z, x, c;
+	printf("Digite um numero inteiro: ");
+	scanf("%d", &z);
+	printf("Digite outro numero inteiro: ");
+	scanf("%d", &x);
+
+	c = z * x;
+
+	printf("%d", c);
+
+	return 0;
+
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int a, b, c, d;
+	printf("Escolha um numero para soma: ");
+	scanf("%d", &a);
+	printf("Escolha outro numero para soma: ");
+	scanf("%d", %b);
+	printf("Escolha mais um numero para soma: ");
+	scanf("%d", &c);
+
+	d = a + b + c;
+
+	printf("O resultado é %d!", d);
+
+	return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+	int π, R, c, k;
+	printf("Qual o raio do circulo? ");
+	scanf("%f", &R);
+
+	π = 3,14;
+	pow(R,R) = k;
+
+	c = π * k;
+
+	printf("O resultado final é %f!", c);
+
+	return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+	int x, y, z, k, f;
+	printf("Digite um numero para media aritmetica: ");
+	scanf("%d", &x);
+	printf("Digite outro numero para a media: ");
+	scanf("%d", &y);
+	printf("Outro numero: ");
+	scanf("%d", &z);
+
+	k = x + y + z;
+    f = k/3;
+	printf("A media aritmetica é %d!", f);
+
+	return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+	int a, b, c;
+	printf("Qual o salario inicial do funcionario? ");
+	scanf("%2f", &a);
+
+	b = a * 1.25;
+
+	printf("O salario final do funcionario e %2f", b);
+
+	return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main (){
+	int a, b, c;
+	printf("Qual o salario base do funcionario? ");
+	scanf("%d", &a);
+
+	b = a * 1.05;
+	
+	c = b * 0.93;
+
+	printf("O salario bruto e %d!, c");
+
+	return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+float capital, juros, montante;
+int meses;
+printf("Qual o capital investido? ");
+scanf("%f", &capital);
+
+printf("Qual os juros aplicados?  (0.01 / 0.02 / 0.03...) ");
+scanf("%f", &juros);
+
+printf("Por quantos meses foi aplicado? ");
+scanf("%d", &meses);
+
+
+
+montante = capital * pow (1+juros, meses);
+
+
+
+printf("O resultado final e %.2f", montante);
+
+return 0;
+
+
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (){
+    int ano, idade;
+    printf("Que ano você nasceu? ");
+    scanf("%d", &ano);
+   
+    idade = 2020 - ano;
+   
+    printf("Você tem %i", idade);
+   
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+
+int main(){
+
+    int peso, engpeso, empeso;
+
+    printf("Qual o seu peso atual? ");
+
+    scanf("%i", &peso);
+
+   
+    engpeso = peso * 1.15;
+    empeso = peso * 0.80;
+   
+    printf("Caso você engorde 15 porcento seu peso será: %i ", &engpeso);
+
+    printf("Caso você emagreca 20 porcento seu novo peso será: %i ", &empeso);
+
+   
+    return 0;
+   
+ 
+ 
+}  
+------------------------------------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int a, b, c, d;
+	printf("Informe um numero inteiro aleatório: ");
+	scanf("%d", &a);
+	printf("Informe outro numero inteiro aleatorio: ");
+	scanf("%d", &b);
+	
+	a + b == c;
+	a - b == d;
+	
+	c = a;
+	d = b;
+
+	printf("Estes sao os novos valores de %d e %d", a,b);
+	return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+float grausc, grausf;
+printf("Quantos graus Celsius voce quer converter? ");
+scanf("%f", &grausc);
+
+grausf = (1.8 * grausc) + 32;
+
+printf("A temperatura em graus Farenheit e %.2f", grausf);
+
+return 0;
+}
+
+
+
+
+
